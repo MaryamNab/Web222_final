@@ -100,3 +100,8 @@ form p input
     font-family:monospace;
     font-style: oblique;
 }
+#note
+{
+    margin:10%;
+    color: red;
+}
