@@ -13,7 +13,7 @@
 }
 .headfoot
 {
-    border-width: 2%;
+    border-width: 2px;
     border-style:solid;
     border-color:blue;
     border-radius: 8px;
@@ -59,7 +59,7 @@ img
     max-width: 90%;
     border-color:#e629d3;
     border-style: solid;
-    border-width: 2%;
+    border-width: 2px;
 }
 #identity
 {
@@ -104,4 +104,8 @@ form p input
 {
     margin:10%;
     color: red;
+}
+h2
+{
+    text-align: center;
 }
