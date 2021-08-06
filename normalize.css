@@ -1,0 +1,102 @@
+
+.body-info
+{
+    background-color: #99FFFF;
+}
+.body-honesty
+{
+    background-color: #99FFDD;
+}
+.body-reflect
+{
+    background-color: #EECCFF;
+}
+.headfoot
+{
+    border-width: 2%;
+    border-style:solid;
+    border-color:blue;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    background-image: url("image3.jpg");
+
+}
+.headfoot a
+{
+    color: white;
+
+}
+
+nav ul
+{
+    list-style-type:square;
+
+}
+main
+{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+#main-info
+{
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#declare
+{
+    text-align: center;
+    font-family:cursive;
+}
+img
+{
+    padding: 2%;
+    margin: 2%;
+    width: 90%;
+    max-width: 90%;
+    border-color:#e629d3;
+    border-style: solid;
+    border-width: 2%;
+}
+#identity
+{
+    font-weight: bold;
+    color:red;
+}
+#errors
+{
+    margin: 2%;
+    color: red;
+    margin:10%;
+
+}
+form
+{
+    text-align: center;
+
+
+}
+form p input
+{
+    width:100%;
+    border-style: solid;
+    border-color: blue;
+}
+.button
+{
+    width:25%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: orangered;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#myreflection
+{
+    margin:2%;
+    font-family:monospace;
+    font-style: oblique;
+}

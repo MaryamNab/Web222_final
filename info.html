@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Maryam Syeda</title>
+        <meta charset="utf-8">
+        <script src="https://kit.fontawesome.com/c0b85bfa4e.js" crossorigin="anonymous"></script>
+        <script src="info.js"></script>
+        <link rel="stylesheet" href="normalize.css">
+
+    </head>
+
+    <body class="body-info">
+        <header class="headfoot">
+            <h1>
+                <a href="honesty.html">Maryam's Tech Store</a> 
+            <a href="honesty.html"><i class="fas fa-child"></i></a>
+            </h1>
+
+            <h2>Signup!</h2>
+
+            <h3>Be a member today and enjoy exclusive discounts always!</h3>
+        </header>
+
+
+        <main id="main-info">
+           <nav>
+               <ul>
+                   <li><a href="info.html">Info</a></li>
+                   <li><a href="honesty.html" target ="blank">Honesty</a></li>
+                   <li><a href="reflection.html" target ="blank">Reflection</a></li>
+
+
+               </ul>
+           </nav>
+           <section>
+
+
+           <form action="https://httpbin.org/post" method="post" name="signup"  autocomplete="on" onsubmit='return formValidation();'>
+
+            <p>
+                <label for="firstname"><span>First Name:<br></span></label>
+                <input type="text" name="firstname" id="firstname" required="required" tabindex="1">
+           
+            </p>
+
+            <p>
+                <label for="lastname"><span>Last Name:<br></span></label>
+                <input type="text" name="lastname" id="lastname" required="required" tabindex="2">
+            </p>
+
+            <p>
+                <label for="password"><span>Password:<br></span></label>
+                <input type="password" name="password" id="password" required="required" tabindex="3" autocomplete="off">
+            </p>
+
+            <p>
+                <label for="confirm"><span>Confirm Password:<br></span></label>
+                <input type="password" name="password" id="confirm" required="required" tabindex="4" autocomplete="off">
+            </p>
+
+            <p>
+                <label for="username"><span>Username:<br></span></label>
+                <input type="text" name="username" id="username" required="required" tabindex="5">
+            </p>
+
+            <p>
+                <span>Education Level:<br></span>
+                <input type="text" list="educationlevel" name="educationlevel"  required="required" tabindex="6"
+                    placeholder="Click here to select"/>
+                
+                    <datalist id="educationlevel">
+                        <option value="0">-select-</option>
+                        <option value="Technical Diploma">Technical Diploma</option>
+                        <option value="College Diploma">College Diploma</option>
+                        <option value="Bachelor's Degree">Bachelor's Degree</option>
+                        <option value="Master's Degree">Master's Degree</option>
+                        <option value="Others">Others</option>
+                    </datalist>
+            </p>
+
+            <p>
+               <span>Education Status:<br></span>
+
+                <input type="radio" name="education status" value="graduated" tabindex="7" checked>Graduated
+                <input type="radio" name="education status" value="currently enrolled" tabindex="8">Currently Enrolled
+                <input type="radio" name="education status" value="did not graduate" tabindex="9">Did not Graduate
+            </p>
+
+            <p>
+                <label for="email"><span>Email: <br></span></label>
+                <input type="email" name="email" id="email" required="required" tabindex="10" autocomplete="off">
+            </p>
+
+            <p>
+                <label for="age"><span>Age:<br></span></label>
+                <input type="number" name="age" id="age" required="required" min="18" max="60" tabindex="11">
+            </p>
+
+            <p>
+                <input type="hidden" name="lastName" id="lastName" value="Syeda"/>
+
+                <input type="hidden" name="studentId" id="studentId" value="msyeda3"/> 
+            </p>
+
+            <br>
+            
+            <p>
+                <input type="submit" value="Submit" class="button" tabindex="12">&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" value="Reset" class="button" onclick="clearErrors();" tabindex="13">
+            </p>
+        
+        </form>
+
+
+        </section>
+        
+        <aside id="errors"> 
+            
+        </aside>
+
+        </main>
+
+        <footer class="headfoot">
+           <p>Contact us</p>
+
+           <a href="https://en-gb.facebook.com/" target="blank"><i class="fab fa-facebook"></i></a>
+            
+           <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+
+           <a href="https://twitter.com/login/" target="blank"><i class="fab fa-twitter"></i></a>
+
+           <a href="https://outlook.live.com/owa/" target="blank"><i class="fas fa-at"></i></a>
+
+           <a href="https://github.com/MaryamNab/Web222_final.git" target="blank">GitHubProject</a>
+
+
+
+
+        </footer>
+        
+    </body>
+    </html>
